@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wild Pine Coffee</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Oswald:wght@700&display=swap"rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-container">
+      <!-- Menu -->
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="#best-sellers-section-id" class="nav-link">Best sellers</a>
+        <a href="shop.html" class="nav-link">Products</a>
+        <a href="#" class="nav-link">Our Story</a>
+      </nav>
+
+      <!-- Logo -->
+      <div class="logo-box">
+        <a href="#" class="brand-logo">
+          <span class="brand-main">WILD PINE</span>
+          <span class="brand-sub">COFFEE & TEA</span>
+        </a>
+      </div>
+
+      <!--Action box-->
+      <div class="action-box">
+        <button class="icon-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <a class="icon-btn" href="login.html">
+          <i class="fa-regular fa-user"></i>
+        </a>
+        <button class="cart-btn">
+          <!-- Vòng tròn bao -->
+          <div class="cart-circle">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ====================== -->
+  <!-- BANNER -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+
+        <h1 class="hero-title">
+          Roasted to Order.<br />
+          <span class="hero-title-second">Delivered Fresh.</span>
+        </h1>
+
+        <p class="hero-desc">
+          Experience the ultimate coffee flavor. We roast in small, handcrafted batches and deliver directly to you at
+          the peak of freshness.
+          <!-- Thưởng thức chất cà phê tinh túy nhất. Rang thủ công theo từng mẻ nhỏ, giao trực tiếp đến bạn ở thời điểm tươi mới hoàn hảo. -->
+        </p>
+        <hr>
+        <div class="hero-actions">
+          <a href="shop.html" class="buy-btn">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHẦN 3 -->
+  <section id="best-sellers-section-id" class="best-sellers-section">
+    <div class="container">
+
+      <h2 class="section-title">BEST SELLERS</h2>
+
+      <!-- Lưới chứa 4 thẻ sản phẩm -->
+      <div class="products-grid">
+
+        <!-- SẢN PHẨM 1 -->
+        <div class="product-card">
+          <div class="product-img-box">
+
+            <img src="./images/items1.png" alt="" />
+          </div>
+
+          <div class="product-info">
+            <div class="title-price-row">
+              <h3 class="product-name">WILD PINE BLEND</h3>
+              <span class="product-price">240.000đ</span>
+            </div>
+            <p class="product-desc">Gỗ Tuyết Tùng, Chocolate Đen, Kẹo Dẻo Nướng</p>
+            <p class="product-meta"> Cà phê Signature đậm đà & êm dịu từ tự nhiên</p>
+
+          </div>
+
+          <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- SẢN PHẨM 2 -->
+        <div class="product-card">
+          <div class="product-img-box">
+            <img src="./images/item2.png" alt="Winter Espresso Set" />
+          </div>
+
+          <div class="product-info">
+            <div class="title-price-row">
+              <h3 class="product-name">COMBO WINTER ESPRESSO & CA GỐM</h3>
+              <span class="product-price">520.000đ</span>
+            </div>
+            <p class="product-desc">Chocolate, Mâm Xôi + Ca gốm thủ công</p>
+            <p class="product-meta">Sự kết hợp ấm áp hoàn hảo cùng chiếc ca gốm mộc mạc</p>
+          </div>
+
+          <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <!-- SẢN PHẨM 3 -->
+        <div class="product-card">
+          <div class="product-img-box">
+            <img src="./images/item3.png" alt="Craft Instant Espresso" />
+          </div>
+
+          <div class="product-info">
+            <div class="title-price-row">
+              <h3 class="product-name">CRAFT INSTANT ESPRESSO</h3>
+              <span class="product-price">380.000đ</span>
+            </div>
+            <p class="product-desc">Sô-cô-la Đen, Rỉ Đường, Mạch Nha Nướng</p>
+            <p class="product-meta">Cà phê Espresso chuẩn vị quán mọi lúc mọi nơi</p>
+          </div>
+
+          <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <div>
+          <button class="btn-shop-more">Shop More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHẦN 4: GIFT -->
+  <section class="gift-section">
+    <div class="container gift-grid">
+
+      <div class="gift-content">
+        <h2 class="gift-title">THE ART OF HOLIDAY GIFTING</h2>
+        <p class="gift-desc">
+          <strong class="make-strong">"</strong>Gửi trao hơi ấm của những buổi sáng thảnh thơi và hương vị mộc mạc từ
+          rừng thông. Từ những chiếc ca gốm thủ công đến các dòng cà phê rang đặc trưng mùa lễ hội, mỗi bộ quà tặng đều
+          được chăm chút để mang lại sự bình yên cho người trân quý."
+        </p>
+        <a href="#gift-guide" class="gift-btn">Shop Holiday Gift</a>
+      </div>
+
+
+      <div class="gift-collage">
+        <div class="collage-item">
+          <img src="./images/gift.png" alt="Coffee and Mug Set" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <footer class="wp-footer">
+    <div class="wp-container">
+      <div class="wp-top">
+
+        <div class="wp-brand-col">
+          <div class="wp-logo">
+            <span class="dot"></span> WILD PINE COFFEE
+          </div>
+          <p class="wp-tagline">Rang thủ công từng mẻ nhỏ. Giao trọn vị tươi.</p>
+          <div class="wp-socials">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+
+        <div class="wp-links">
+          <div>
+            <h4>CỬA HÀNG</h4>
+            <a href="#">Cà phê hạt</a>
+            <a href="#">Cold Brew</a>
+            <a href="#">Dụng cụ pha</a>
+            <a href="#">Combo</a>
+          </div>
+          <div>
+            <h4>THÔNG TIN</h4>
+            <a href="#">Câu chuyện</a>
+            <a href="#">Cửa hàng</a>
+            <a href="#">Liên hệ</a>
+            <a href="#">Đặt sỉ</a>
+          </div>
+        </div>
+
+
+        <div class="wp-newsletter">
+          <h4>NHẬN BẢN TIN</h4>
+          <p>Ưu đãi độc quyền và lịch rang mới nhất.</p>
+          <form class="wp-form">
+            <input type="email" placeholder="Email của bạn" required>
+            <button type="submit" aria-label="Gửi"><i class="fa-solid fa-arrow-right-long"></i></button>
+          </form>
+        </div>
+      </div>
+
+
+      <div class="wp-bottom">
+        <span>© 2026 WILD PINE COFFEE</span>
+        <div class="wp-legal">
+          <a href="#">Điều khoản</a>
+          <a href="#">Bảo mật</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
